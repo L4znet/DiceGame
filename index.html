@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <main>
+            <section class="new_game">
+                <button id="new_game">New game</button>
+            </section>
+            <section class="players">
+                <section class="player">
+                    <h2>Player 1</h2>
+                    <div class="score" id="player_1_score">0</div>
+                </section>
+                <section class="player">
+                    <h2>Player 2</h2>
+                    <div class="score" id="player_2_score">0</div>
+                </section>
+            </section>
+            <section class="footer">
+                <section class="current">
+                    <h3>Current</h3>
+                    <span id="player_1_current">0</span>
+                </section>
+                <ul>
+                    <li>
+                        <button id="rtd">Roll the dice</button>
+                    </li>
+                    <li>
+                        <button id="hold">Hold</button>
+                    </li>
+                </ul>
+                <section class="current">
+                    <h3>Current</h3>
+                    <span id="player_2_current">0</span>
+                </section>
+            </section>
+            <script src="app.js"></script>
+        </main>
+    </body>
+</html>
